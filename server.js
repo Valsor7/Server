@@ -2,9 +2,9 @@ var log = require('./logger')(module);
 
 var User = require('./user');
 
-var vasya = new User('Vasya', '16');
+var kolya = new User('Kolya', '12');
 
-vasya.hello(vasya);
+kolya.hello(kolya);
 
 log();
 
